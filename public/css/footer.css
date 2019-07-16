@@ -1,0 +1,127 @@
+/* 最外层 */
+.footer{
+    width:100%;
+    /* height:500px; */
+    position:relative;
+    bottom:0;
+    background:#f2f6f7;
+
+}
+/* 轮播图主体定位 */
+.wallBox{
+    position: relative;
+    width:1200px;
+    margin:0 auto;
+    /* border:1px solid red; */
+    /* margin-top:10px; */
+}
+/* 轮播图箭头 */
+.icon-angle-left:before,.icon-angle-right:before{
+    font-size:26px;
+    position:absolute;
+    color:#b0916a;
+    top:45%;
+}
+.icon-angle-left:before{
+    left:-20px;
+}
+.icon-angle-right:before{
+    right:-20px;
+}
+/* 轮播图区域 */
+.wallBox-scroller{
+    width:1200px;
+    height:270px;
+    overflow:hidden;
+    position: relative;
+}
+.scrollerList{
+    position:absolute;
+    top:0;
+    list-style:none;
+    width:3600px;
+    height:280px;
+    font-size:0;
+    left:-400px;
+    /* margin-left:0; */
+
+}
+.scrollerList li{
+    display:inline;
+    
+}
+.scrollerList img{
+    width:370px;
+    max-height:230px; 
+}
+.scrollerList a{
+    display:inline-block;
+    width:370px;
+    height:230px;
+    text-align: center;
+    margin:15px;
+
+    border-bottom:3px solid #d9e8ec;
+    /* margin:16px 15px; */
+    padding-bottom:4px;
+}
+.scrollerList a:hover{
+    border-bottom:3px solid #666;
+}
+.scrollerList trans{
+    transition:all .5s linear;
+}
+/* 底部文字部分 */
+.footBox,.copyRighta,.copyRightb{
+    width:1000px;
+    margin:0 auto;
+    font-size:12px;
+    color:#666;
+}
+.footBox{
+    padding:40px 0 20px;
+    
+}
+.boxLeft{
+    float:left;
+    width:300px;
+    padding:40px 0 20px;
+    
+}
+.boxLeft p:first-child{
+    color:#b0916a;
+    font-size:14px;
+}
+.boxRight{
+    float:left;
+    margin-left:20px;
+    border-left:1px solid #bbb;
+}
+.boxRight ul{
+    float:left;
+    list-style:none;
+    text-align:center;
+    width:200px;
+}
+
+.boxRight ul li{
+    height:20px;
+    line-height:20px;
+}
+.boxRight ul li:first-child{
+    font-size:14px;
+    padding:8px 0;
+}
+.copyRighta table{
+    margin:0 auto;
+    border-spacing:40px 0;
+}
+.copyRightb{
+    width:1000px;
+    text-align:center;
+    padding:40px 0;
+}
+.copyRightb img{
+    vertical-align: baseline;
+    margin-bottom:-7px;
+}

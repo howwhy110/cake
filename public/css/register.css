@@ -1,0 +1,132 @@
+/* 后面背景 */
+.bgp{
+    background:#666;
+    width:100%;
+    height:1200px;
+}
+/* 登陆框主体 */
+.main{
+    width:960px;
+    height:600px;
+    background:#fff;
+    margin:30px auto;
+    border-radius: 5px;
+}
+/* 左边登陆 */
+.mainLeft{
+    width:400px;
+    
+    height:500px;
+    padding:40px 90px 60px 90px;
+    position:relative;
+    border-right:1px solid #dddddd;
+    float:left;
+}
+.mainLeft h1{
+    margin:15px 0;
+    font-weight:400;
+}
+.item{
+    position: relative;
+}
+.pck{
+    position:absolute;
+    font-size:12px;
+    color:#bbb;
+    top:19px;
+    right:-20px;
+}
+.codeBtn,.submit{
+    outline:0;
+    border:0;
+    background:#b0916a;
+    border-radius:3px;
+    color:#fff;
+}
+.codeBtn{
+    font-size:12px;
+    padding:10px 15px;
+    position:absolute;
+    right:0;
+    bottom:265px;
+}
+.submit{
+    width:100%;
+    height:50px;
+    margin-top:40px;
+    font-size:16px;
+    padding:10px;
+}
+.codeBtn:hover,.submit:hover,.regBtn:hover{
+    background:#8d704d;
+    cursor:pointer;
+    
+}
+.inputStyle{
+    display:block;
+    font-size:16px;
+    outline:0;
+    border:0;
+    border-bottom:1px solid #eee;
+    padding:15px;
+    width:400px;
+    /* padding-right:135px; */
+    margin:15px 0;
+    color:#666;
+}
+.inputStyle::placeholder{
+    font-size:14px;
+    
+}
+.mainRight{
+    text-align:center;
+}
+.right{
+    margin-top:100px;
+}
+.right>p{
+    font-size:12px;
+    color:#666;
+    
+}
+.right div{
+    
+    margin-top:100px;
+}
+.icon-zhifubao:before,.icon-weibo:before{
+    font-size:50px;
+    color:#1BABEF;
+    cursor:pointer;
+    
+}
+.icon-weibo:before{
+    color:#D15655;
+    margin-left:30px;
+}
+.right a{
+    margin:100px 0 30px;
+    display:block;
+    text-decoration:none;
+    color:#666;
+    font-size:12px;
+    cursor:auto;
+}
+.regBtn{
+    outline:0;
+    border:0;
+    background:#b0916a;
+    color:#fff;
+    padding:8px 30px;
+    border-radius:50px;
+}
+.icon-yuanxing:before{
+    color:#666;
+    font-size:20px;
+}
+.deal{
+    color:#666;
+}
+.agreement{
+    border:0;
+}
+
