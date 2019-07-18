@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册界面</title>
+    <link rel="stylesheet" href="./css/comm.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/iconfont/iconfont.css">
+</head>
+<body>
+    <div class="bgp">
+        <table></table>
+        <!-- 登陆页面主体 -->
+        <div class="main">
+            <!-- 左边 -->
+            <div class="mainLeft">
+                <h1>会员注册</h1>
+                <div class="item">
+                    
+                        <input type="text" placeholder="请输入手机号码" class="inputStyle" maxlength="11" name="phone" id="phone">
+                        <span id="pck">请输入手机号</span>
+                        <input type="text" placeholder="图片验证码" class="inputStyle" name="picCode">
+                        <!-- <img src="" alt=""> -->
+                        <input type="text" placeholder="请输入短信验证码" class="inputStyle" name="textCode">
+                        <button class="codeBtn">发送验证码</button>
+                        <span class="sendCode"></span>
+                        <input type="password" placeholder="密码必须是6-30位字符，可使用字母、数字" class="inputStyle" name="upwd" id="upwd">
+                        <span id="upck"></span>
+                        <input type="password" placeholder="确认密码" class="inputStyle" name="ckupwd" id="reupwd">
+                        <span id="upreck"></span>
+                        <input type="checkbox" class="accept" name="ck">
+                        <span class="deal">同意《M'cake购物协议》</span>
+                        <button class="submit" disabled>提 交</button>
+                    
+                </div>
+            </div>
+            <!-- 右边 -->
+            <div class="mainRight">
+                <table></table>
+                <div class="right">
+                    <p>其他登陆方式</p>
+                    <div>
+                        <span class="iconfont icon-zhifubao"></span>
+                        <span class="iconfont icon-weibo"></span>
+                    </div>
+                    <a href="javascript:;">还没有账号?</a>
+                    <button class="regBtn">登陆</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/logreg.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>

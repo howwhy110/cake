@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登陆界面</title>
+    <link rel="stylesheet" href="./css/comm.css">
+    <link rel="stylesheet" href="./css/log.css">
+    <link rel="stylesheet" href="./css/iconfont/iconfont.css">
+</head>
+<body>
+    <div class="bgp">
+        <table></table>
+        <!-- 登陆页面主体 -->
+        <div class="main">
+            <!-- 左边 -->
+            <div class="mainLeft">
+                <h1>登陆</h1>
+                <ul id="tab">
+                    <li class="phoneLogin active" data-toggle="tabs" data-id="tab1">手机验证码登陆</li>
+                    <li class="accountLogin" data-toggle="tabs" data-id="tab2">账号密码登陆</li>
+                </ul>
+                <div class="tabsContainer">
+                    <div class="tabItem1" id="tab1">
+                        <input type="text" placeholder="请输入手机号码" class="inputStyle" >
+                        <input type="text" placeholder="图片验证码" class="inputStyle">
+                        <!-- <img src="" alt=""> -->
+                        <input type="text" placeholder="请输入短信验证码" class="inputStyle">
+                        <button class="codeBtn">发送验证码</button>
+                        <button class="loginBtn">登 陆</button>
+                    </div>
+                    <div class="tabItem2" id="tab2">
+                        <input type="text" placeholder="请输入用户名" class="inputStyle">
+                        <input type="text" placeholder="请输入密码" class="inputStyle">
+                        <a class="codeBtn">忘记密码</a>
+                        <button class="loginBtn">登 陆</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 右边 -->
+            <div class="mainRight">
+                <table></table>
+                <div class="right">
+                    <p>其他登陆方式</p>
+                    <div>
+                        <span class="iconfont icon-zhifubao"></span>
+                        <span class="iconfont icon-weibo"></span>
+                    </div>
+                    <a href="">还没有账号?</a>
+                    <button class="regBtn">立即注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/logreg.js"></script>
+</body>
+</html>
